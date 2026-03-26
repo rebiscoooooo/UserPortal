@@ -1,0 +1,32 @@
+:root {
+    --primary: #0036af;;
+    --secondary: #2d56af;
+}
+
+.main-container {
+    min-height: calc(100vh - 140px); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+.login-card {
+    background: #ffffff;
+    width: 100%;
+    max-width: 420px;
+    padding: 40px 30px;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.login-card .btn-primary {
+    background-color: var(--primary);
+    border: none;
+    padding: 10px;
+}
+
+.login-card .btn-primary:hover {
+    background-color: var(--secondary);
+}
